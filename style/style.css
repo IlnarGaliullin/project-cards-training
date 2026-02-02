@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.wrapper {
+  max-width: 1110px;
+  background-image: url(/images/bg-dandelion-flower.png);
+  background-repeat: no-repeat;
+  background-size: 790px 697px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 78px;
+  text-align: center;
+  color: #515076;
+  margin-top: 220px;
+  margin-bottom: 110px;
+}
+
+.product-card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+
+.product-card {
+  width: 340px;
+  min-height: 573px;
+  background-color: #5150761A;
+  gap: 45px;
+}
+
+.product-card__img {
+  width: 290px;
+  height: 245px;
+  margin: 25px 25px 0 25px;
+}
+
+.product-card__for-skin {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+  margin: 30px 0 5px 25px;
+}
+
+.product-card__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #515076;
+  margin: 0 25px;
+}
+
+.product-card__descr {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color:#515076;
+  margin: 5px 28px 15px 25px;
+}
+
+.product-card__composition {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  padding-left: 0px;
+  margin-left: 25px;
+  list-style-position: inside;
+}
+
+.product-card__text {
+  margin-bottom: 5px;
+}
+
+.product-card__item {
+  list-style-type: circle;
+  margin-bottom: 5px;
+}
+
+.product-card__price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 25px 25px 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;  
+  color: #515076;
+}
+
+.parent span:first-child {
+  font-weight: bold;
+}
