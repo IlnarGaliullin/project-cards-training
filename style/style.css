@@ -8,6 +8,25 @@ body {
   font-family: Montserrat;
 }
 
+.buttons {
+  position: absolute;
+  top: 50px;
+}
+
+button {
+  border: 3px solid #4c51f9;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.first-color {
+  background-color: #4c51f9;
+}
+
+.second-color {
+  background-color: aqua;
+}
+
 .wrapper {
   max-width: 1110px;
   background-image: url(/images/bg-dandelion-flower.png);
