@@ -8,7 +8,7 @@ const blueHashColor = "#FF0000";
 
 recolorFirstCardButton.addEventListener("click", () => {
   firstCardCompostion.style.backgroundColor = blueHashColor;
-})
+});
 
 // Покраска фона раздела "состав" во всех карточках товара 
 
@@ -16,11 +16,10 @@ const recolorAllCardCompositionsButton = document.getElementById("recolor-all-ca
 const cardCompostions = document.querySelectorAll(".product-card__composition");
 const greenHashColor = "#00ff44";
 
-recolorAllCardCompositionsButton.addEventListener ("click", () =>{
-  cardCompostions.forEach(
-    card => card.style.backgroundColor = greenHashColor
-  )
-})
+recolorAllCardCompositionsButton.addEventListener ("click", () => {
+  cardCompostions.forEach (
+    card => card.style.backgroundColor = greenHashColor)
+});
 
 // Переход на главную страницу Google
 
@@ -35,7 +34,7 @@ function openGoogle () {
   if (answer === true) {
     window.open('https://google.com')
   } else {
-    console.log('Пользователь отменил переход на Google')
+    console.log('Пользователь отменил переход на Google');
   }
 }
 
@@ -43,9 +42,9 @@ function openGoogle () {
 
 const headerMoseover = document.querySelector('.heading');
 
-headerMoseover.addEventListener('mouseover', function(){
+headerMoseover.addEventListener('mouseover', function() {
   console.log("Выбери свой продукт")
-})
+});
 
 // Переключение цвета кнопки 
 
@@ -54,4 +53,3 @@ const changeColorBtn = document.getElementById('change-color-btn');
 changeColorBtn.addEventListener('click', () => {
   changeColorBtn.classList.toggle('second-color');
 });
-
