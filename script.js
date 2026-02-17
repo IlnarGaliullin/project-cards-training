@@ -15,7 +15,7 @@ recolorFirstCardButton.addEventListener("click", () => {
 const recolorAllCardCompositionsButton = document.getElementById("recolor-all-card-composition-button");
 const cardCompostions = document.querySelectorAll(".product-card__composition");
 const greenHashColor = "#00ff44";
-
++
 recolorAllCardCompositionsButton.addEventListener ("click", () => {
   cardCompostions.forEach (
     card => card.style.backgroundColor = greenHashColor)
@@ -27,12 +27,12 @@ const openGoogleButton = document.getElementById("open-google-button");
 openGoogleButton.addEventListener ("click", openGoogle);
 
 function openGoogle () {
-  const answer = confirm('Вы дествительно хотите перейти на сайт Google?')
+  const answer = confirm('Вы дествительно хотите перейти на сайт Google?');
 
   console.log(answer);
 
   if (answer === true) {
-    window.open('https://google.com')
+    window.open('https://google.com');
   } else {
     console.log('Пользователь отменил переход на Google');
   }
@@ -43,8 +43,9 @@ function openGoogle () {
 const headerMoseover = document.querySelector('.heading');
 
 headerMoseover.addEventListener('mouseover', function() {
-  console.log("Выбери свой продукт")
+  console.log(headerMoseover.textContent);
 });
+
 
 // Переключение цвета кнопки 
 
