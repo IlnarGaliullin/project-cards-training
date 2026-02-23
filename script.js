@@ -40,10 +40,10 @@ function openGoogle () {
 
 // Вывод текста в консоль
 
-const headerMoseover = document.querySelector('.heading');
+const mainTitle = document.querySelector('.heading');
 
-headerMoseover.addEventListener('mouseover', function() {
-  console.log(headerMoseover.textContent);
+mainTitle.addEventListener('mouseover', function() {
+  console.log(mainTitle.textContent);
 });
 
 
