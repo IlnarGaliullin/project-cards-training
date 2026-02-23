@@ -18,7 +18,8 @@ const greenHashColor = "#00ff44";
 +
 recolorAllCardCompositionsButton.addEventListener ("click", () => {
   cardCompostions.forEach (
-    card => card.style.backgroundColor = greenHashColor)
+    card => card.style.backgroundColor = greenHashColor
+  );
 });
 
 // Переход на главную страницу Google

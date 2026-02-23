@@ -29,7 +29,7 @@ button {
 
 .wrapper {
   max-width: 1110px;
-  background-image: url(/images/bg-dandelion-flower.png);
+  background-image: url("/images/bg-dandelion-flower.png"); 
   background-repeat: no-repeat;
   background-size: 790px 697px;
   display: flex;
