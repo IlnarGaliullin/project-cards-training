@@ -95,6 +95,16 @@ button {
   margin: 5px 28px 15px 25px;
 }
 
+.product-card__composition-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  padding-left: 0px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
 .product-card__composition {
   font-weight: 400;
   font-size: 13px;
@@ -103,10 +113,6 @@ button {
   padding-left: 0px;
   margin-left: 25px;
   list-style-position: inside;
-}
-
-.product-card__text {
-  margin-bottom: 5px;
 }
 
 .product-card__item {
