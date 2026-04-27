@@ -54,3 +54,11 @@ const surname = "Galiullin";
 
 console.log(myMessage);
 console.log(`${surname} ${first_name}`);
+
+
+const person = {
+  "first name": "Влад",
+  age: 20 
+}
+
+console.log (person["first name"])
