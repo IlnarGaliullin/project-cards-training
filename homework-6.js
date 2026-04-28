@@ -26,7 +26,7 @@ const infoVehicle = {
   tranmission: "automatic",
 }
 
-infoVehicle.holder = user.fullName;
+infoVehicle.holder = user;
 
 console.log(infoVehicle)
 
@@ -135,6 +135,6 @@ function addRareBook(books) {
   }));
 }
 
-const updateBooks = addRareBook(raisingChildrenBooks);
+const updateBooks = addRareBook(resultBooks);
 
 console.log(updateBooks);
